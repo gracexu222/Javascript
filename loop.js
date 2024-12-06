@@ -11,6 +11,6 @@ numbers.forEach(function (i) {
 });
 
 // i for numbers "in" method indicate the index of numbers
-for (let i in numbers) {
+for (const i of numbers) {
   console.log(i);
 }
